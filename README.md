@@ -2,6 +2,8 @@
 
 Salient features of the Matrix Kernel
 
+
+- The math kernel is a header only implementation
 - The matrix is implemented for INT, FLOAT, DOUBLE, LONG INT, LONG DOUBLE, and for COMPLEX numbers of the previously mentioned types.
 - The operations throws exceptions with appropriate error messages. This is to keep up with modern designs when the returned error message/code alone is not sufficient.
 - A **lazy matrix multiplication schema is implemented**, for rectangular (non-square) multiplications for matrices that are called using operator*() on more than 2 matrices
@@ -29,15 +31,23 @@ Note: Please feel free to modify the source files
 **
    
    g++ -std=gnu++20 -c Utils.cpp
+   
    g++ -std=gnu++20 -c Interpreter.cpp
+   
    ar rvs Utils.a Utils.o
+   
    ar rvs Interpreter.a Interpreter.o
+   
    g++ -std=gnu++20 CommandLineMatrixTest.cpp  Utils.a Interpreter.a -o **CommandLineMatrixTest**
-
+   
    g++ -std=gnu++20 ChainRectLongDoubleMatrixTest.cpp Utils.a Interpreter.a -o **ChainRectLongDoubleMatrixTest**
+   
    g++ -std=gnu++20 ComplexNonSquareChainMatrixTest.cpp  Utils.a Interpreter.a -o **ComplexNonSquareChainMatrixTest**
+   
    g++ -std=gnu++20 ComplexSquareMatrixTest.cpp  Utils.a Interpreter.a -o **ComplexSquareMatrixTest**
+   
    g++ -std=gnu++20 UnitaryMatrixTest.cpp  Utils.a Interpreter.a -o **UnitaryMatrixTest**
+   
    g++ -std=gnu++20 IdentityMatrixTest.cpp  Utils.a Interpreter.a -o **IdentityMatrixTest**
    
    
