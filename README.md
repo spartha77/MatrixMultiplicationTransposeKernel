@@ -82,11 +82,13 @@ or **z=a * b  * c * d** if all the four matrices are defined
 
 
 **- Transform**
-**a^** (enter) displays the transforms of **a**
-**b=a^** computes the transform of a and stores in **b**
+
+Enter **a^** . It displays the transforms of **a**
+Enter **b = a^** . It computes the transform of **a** and stores in **b**
 
 
-- **Assignment statements of the following types**
+**Assignment statements of the following types**
+
 **a=b** is a simple assignment statement
 
 
@@ -95,5 +97,5 @@ or **z=a * b  * c * d** if all the four matrices are defined
 **a** (enter)
 **b** (enter)
 
-   displays the matrix at the console
+displays the matrix at the console
 
