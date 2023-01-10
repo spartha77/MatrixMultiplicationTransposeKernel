@@ -325,7 +325,7 @@ NumberType Utils::getNumberType(const std::string& token)
 		nType = NumberType::complex_double_type;
 	else if (tk == "complex_long_int")
 		nType = NumberType::complex_long_int_type;
-	else if (tk == "complex_long_double>")
+	else if (tk == "complex_long_double")
 		nType = NumberType::complex_long_double_type;
 
 	return nType;
