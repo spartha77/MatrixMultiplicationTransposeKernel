@@ -73,13 +73,12 @@ The file entry is as follows
 8,0,4,5,6,1,0,3,4;**
 The above data in a file has complex_double
 
-The matrix shall be read using the command **a=C:\Users\parth\source\repos\braincorp\LAKernel\LAKernel\int_file_10_10_file.txt
-**
+The matrix shall be read using the command **a=C:\Users\parth\source\repos\braincorp\LAKernel\LAKernel\int_file_10_10_file.txt**
 
 - **Multiplication**
 For the matrices already read, say a and b,
-the multiplication can be executed as **z=a*b**
-or **z=a*b*c*d;** if all the four matrices are defined
+the multiplication can be executed as **z=a * b**
+or **z=a * b  * c * d** if all the four matrices are defined
 
 
 **- Transform**
