@@ -26,9 +26,9 @@ Note: Please feel free to modify the source files
 
 - Download the source files
 - Ensure that gnu++20 standards are available.
+   
 
-**- Run the following commands sequentially
-**
+**Run the following commands sequentially**
    
    g++ -std=gnu++20 -c Utils.cpp
    
@@ -92,7 +92,9 @@ or **z=a*b*c*d;** if all the four matrices are defined
 
 
 **- Display**
+   
 **a** (enter)
 **b** (enter)
-displays the matrix at the console
+
+   displays the matrix at the console
 
